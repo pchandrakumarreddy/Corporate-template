@@ -1,0 +1,50 @@
+.slicknav_menu {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    .slider {
+        margin-top: 112px;
+    }
+    header {
+        margin-top: -112px;
+        background: #34495e;
+    }
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: inline-block;
+        position: fixed;
+        background: rgba(0, 0, 0, 0);
+        right: 0;
+        z-index: 1000;
+        margin-top: -112px;
+    }
+    .slicknav_btn {
+        margin: 35px 10% 0 0;
+        background: #e74c3c;
+    }
+    .slicknav_nav {
+        width: 200px;
+        background: #34495e;
+    }
+    .slicknav_nav li {
+        width: 200px;
+        border-top: 1px solid #2e4155;
+        border-bottom: 1px solid #3d5267;
+        height: 3em;
+        line-height: 3em;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .slicknav_nav li a {
+        margin: 0;
+        padding: 0;
+    }
+    .slicknav_nav li a:hover {
+        color: #e74c3c;
+        background: rgba(0, 0, 0, 0);
+    }
+}
