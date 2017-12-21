@@ -11,22 +11,23 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/slicknav.min.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="js/respond.js">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/respond.js"></script>
     <script src="js/carouFredSel.js"></script>
 </head>
 
-<body>
+<body id="main">
     <!-- body content -->
     <header>
         <div class="container">
             <div class="row">
-                <a href="#"><img src="img/logo.png" alt="logo" class="logo" /></a>
+                <a href="#"><img src="img/logo.png" alt="logo" class="logo animated fadeInLeft" /></a>
                 <nav>
-                    <ul id="menu" class="menu">
+                    <ul id="menu" class="menu animated fadeInRight">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Our Works</a></li>
@@ -38,10 +39,10 @@
             </div>
         </div>
     </header>
-    <section class="slider">
+    <section class="slider" data-stellar-background-ratio="0.1">
         <ul class="slider-carousel" id="slider-carousel">
-            <li class="img1">
-                <h1>Welcome to <span class="primary">Corporate</span></h1>
+            <li class="img1 ">
+                <h1 class="animated jello">Welcome to <span class="primary">Corporate</span></h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt <br>ullam excepturi itaque consequatur quod sed ipsam? Cum sequi odio quidem</p>
                 <a href="#" class="primary-bg cta1">Get Strated</a><a href="#" class="secondary-sky-blue-bg cta2">Contact us</a>
             </li>
@@ -62,7 +63,7 @@
             <li><a href="#"><i class="fa fa-circle"></i></a></li>
         </ul>
     </section>
-    <section class="services section-padding">
+    <section class="services section-padding" data-stellar-background-ratio="0.1">
         <div class="services-header">
             <h1>services</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae non perspiciatis ratione magnam veritatis <br>nulla fugit laboriosam, temporibus quis sed quidem rerum accusamus saepe voluptate vel asperiores! Adipisci quis.</p>
@@ -106,7 +107,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio section-padding">
+    <section class="portfolio section-padding" data-stellar-background-ratio="0.1">
         <div class="portfolio-header white">
             <h1 class="white">Our Works</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio dolorum soluta molestias nobis dolor, praesentium quaerat omnis temporibus ducimus numquam <br>fuga reiciendis sint laborum dignissimos quam quibusdam iusto ut pariatur.</p>
@@ -221,7 +222,7 @@
         </ul>
     </section>
     <!-- team section-->
-    <section class="team section-padding">
+    <section class="team section-padding" data-stellar-background-ratio="0.1">
         <div class="team-header">
             <h1>Team</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio dolorum soluta molestias nobis dolor, praesentium quaerat omnis temporibus ducimus numquam <br>fuga reiciendis sint laborum dignissimos quam quibusdam iusto ut pariatur.</p>
@@ -372,7 +373,7 @@
         </ul>
     </section>
     <!-- client testimonial section-->
-    <section class="testimonial section-padding">
+    <section class="testimonial section-padding" data-stellar-background-ratio="0.1">
         <div class="testimonial-header center white">
             <h1 class="white">Client Testimonial</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio dolorum soluta molestias nobis dolor, praesentium quaerat omnis temporibus ducimus numquam <br>fuga reiciendis sint laborum dignissimos quam quibusdam iusto ut pariatur.</p>
@@ -429,7 +430,7 @@
             <li><a href="#"><i class="fa fa-circle"></i></a></li>
         </ul>
     </section>
-    <section class="section-padding blog">
+    <section class="section-padding blog" data-stellar-background-ratio="0.1">
         <div class="blog-header center">
             <h1>Recent Posts from Blog</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet <br> dolorum maiores deserunt cupiditate animi consequatur rem a laudantium est numquam quis</p>
@@ -437,19 +438,19 @@
         <div class="blog-content container">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/blog/post1.png" alt="post1">
+                    <img src="img/blog/post1.png" alt="post1" class="img-responsive">
                     <h3 class="bold secondary-sky-blue">uniqueness</h3>
                     <p class="description"><i> by </i> <span><a href="#" class="primary bold">john</a>  </span> on<i class="date"> 15 dec 2017</i></p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, aspernatur inventore voluptas ipsa, neque nesciunt eum architecto dicta illum odio laborum earum commodi. Sed vel amet, minima accusamus maiores ipsam?</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/blog/post2.png" alt="post1">
+                    <img src="img/blog/post2.png" alt="post1" class="img-responsive">>
                     <h3 class="bold secondary-sky-blue">Awesome city</h3>
                     <p class="description"><i> by </i> <span><a href="#" class="primary bold">alex</a>  </span> on<i class="date"> 15 dec 2017</i></p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, aspernatur inventore voluptas ipsa, neque nesciunt eum architecto dicta illum odio laborum earum commodi. Sed vel amet, minima accusamus maiores ipsam?</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/blog/post3.png" alt="post1">
+                    <img src="img/blog/post3.png" alt="post1" class="img-responsive">>
                     <h3 class="bold secondary-sky-blue">Beautiful sky</h3>
                     <p class="description"><i> by </i> <span><a href="#" class="primary bold">Chandra</a>  </span> on<i class="date"> 15 dec 2017</i></p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, aspernatur inventore voluptas ipsa, neque nesciunt eum architecto dicta illum odio laborum earum commodi. Sed vel amet, minima accusamus maiores ipsam?</p>
@@ -457,7 +458,7 @@
             </div>
         </div>
     </section>
-    <section class="contact section-padding">
+    <section class="contact section-padding" data-stellar-background-ratio="0.1">
         <div class="contact-header white center">
             <h1 class="white">Contact us</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam sapiente <br> asperiores iste molestiae tempora ducimus blanditiis. Odit animi enim nulla rem</p>
@@ -514,6 +515,8 @@
     <!-- javascript files-->
     <script src="js/bootstrap.min.js "></script>
     <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/steller.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/main.js "></script>
 </body>
 
