@@ -391,3 +391,151 @@ blockquote:after {
 .testimonial .testimonial-nav li.selected a {
     color: #e74c3c;
 }
+
+
+/* blog section */
+
+.blog .blog-header {
+    margin-bottom: 30px;
+}
+
+.blog .blog-content h3:hover {
+    color: #e74c3c;
+}
+
+
+/* contact us */
+
+.contact {
+    background: url('img/contact-bg.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.contact .contact-header {
+    margin-bottom: 30PX;
+}
+
+form.contact-form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input:not([type="submit"]),
+textarea {
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    background: rgba(233, 231, 213, 0.74);
+    box-shadow: 3px 3px 5px rgba(155, 233, 233, 0.616) inset;
+    -webkit-box-shadow: 3px 3px 5px rgba(155, 233, 233, 0.616) inset;
+    -o-box-shadow: 3px 3px 5px rgb(155, 233, 233, 0.616) inset;
+    -moz-box-shadow: 3px 3px 5px rgb(155, 233, 233, 0.616) inset;
+}
+
+textarea {
+    padding-top: 20px;
+}
+
+input:not([type="submit"]) {
+    height: 35px;
+    line-height: 30px;
+}
+
+#submit {
+    padding: 7px 25px;
+    color: #fff;
+    background: #e74c3c;
+    border: none;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 56px;
+}
+
+footer .description {
+    margin: 20px 0;
+}
+
+footer i {
+    color: #2d82d8;
+}
+
+footer span {
+    padding-left: 20px;
+}
+
+.email-form {
+    margin-top: 30px;
+    height: 40px;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+}
+
+#submit-email {
+    color: #fff;
+    background: #e74c3c;
+    border: none;
+    padding: 4px 10px;
+}
+
+footer ul.social-media-links {
+    margin-top: 20px;
+}
+
+footer .social-media-links li {
+    padding: 0 10px;
+}
+
+footer .social-media-links i {
+    font-size: 26px;
+}
+
+footer ul.social-media-links li .fa-facebook {
+    color: #3b5998;
+}
+
+footer ul.social-media-links li .fa-twitter {
+    color: #00aced;
+}
+
+footer ul.social-media-links li .fa-youtube {
+    color: #bb0000;
+}
+
+footer ul.social-media-links li .fa-dribbble {
+    color: #ea4c89;
+}
+
+footer ul.social-media-links li .fa-linkedin {
+    color: #007bb6;
+}
+
+.copyright {
+    margin: 15px 0 0 0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background: #333;
+    height: 28px;
+    line-height: 28px;
+    width: 100%;
+}
+
+.copyright span {
+    padding-left: 0;
+}
+
+.copyright p {
+    margin: 0;
+}

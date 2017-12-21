@@ -90,3 +90,8 @@ ul {
 .center {
     text-align: center;
 }
+
+.date {
+    color: #333;
+    font-weight: bold;
+}
