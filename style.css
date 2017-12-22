@@ -539,3 +539,7 @@ footer ul.social-media-links li .fa-linkedin {
 .copyright p {
     margin: 0;
 }
+
+.animation {
+    opacity: 0;
+}
