@@ -11,6 +11,19 @@ body {
     height: 1000px;
 }
 
+.pace-running .entire-content {
+    opacity: 0;
+}
+
+.pace-done .entire-content {
+    opacity: 1;
+    transition: all 3s ease-in;
+    -moz-transition: all 3s ease-in;
+    -o-transition: all 3s ease-in;
+    -ms-transition: all 3s ease-in;
+    -webkit-transition: all 3s ease-in;
+}
+
 h1 {
     color: #555;
     font-size: 36px;

@@ -1,0 +1,75 @@
+.animated {
+    animation-duration: 0.9s;
+    -webkit-animation-duration: 0.9s;
+    -moz-animation-duration: 0.9s;
+    -o-animation-duration: 0.9s;
+    -ms-animtion-duration: 0.9s;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.services-content .row .col-md-4:nth-child(1) .animation {
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    -ms-animtion-delay: 0.3s;
+}
+
+.services-content .row .col-md-4:nth-child(2) .animation {
+    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    -ms-animtion-delay: 0.6s;
+}
+
+.services-content .row .col-md-4:nth-child(3) .animation {
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    -ms-animtion-delay: 0.9s;
+}
+
+.portfolio .portfolio-header.animation,
+.team .team-header .animation,
+testimonial .testimonial-header .animation,
+.blog .blog-header .animation,
+.contact .contact-header .animation,
+footer .animation {
+    animation-delay: 0.9s;
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    -ms-animtion-delay: 0.9s;
+}
+
+.portfolio .portfolio-carousel .animation,
+.team .team-carousel .animation,
+testimonial .testimonial-carousel .animation,
+.blog .blog-content .animation,
+.contact .contact-form .animation {
+    animation-delay: 1.9s;
+    -webkit-animation-delay: 1.9s;
+    -moz-animation-delay: 1.9s;
+    -o-animation-delay: 1.9s;
+    -ms-animtion-delay: 1.9s;
+}
+
+.services .services-content i {
+    transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -webkit-transition: all 0.4s ease-in;
+}
+
+.services .services-content i:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}

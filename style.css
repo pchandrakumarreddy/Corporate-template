@@ -543,3 +543,19 @@ footer ul.social-media-links li .fa-linkedin {
 .animation {
     opacity: 0;
 }
+
+.success {
+    color: green;
+    text-align: center;
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+
+.result {
+    text-shadow: 2px 2px 2px #000;
+}
